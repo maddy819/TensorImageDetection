@@ -1,0 +1,15 @@
+# Core ML & DL
+tensorflow==2.15.0
+
+# Scientific Stack
+numpy<2.0
+scipy
+pillow
+matplotlib
+
+# Optional – image data loading and Jupyter support
+jupyter
+ipykernel
+
+# Data tools
+pandas

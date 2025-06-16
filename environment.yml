@@ -1,0 +1,16 @@
+name: tf-stable
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - tensorflow==2.15.0
+      - numpy<2.0
+      - scipy
+      - pillow
+      - matplotlib
+      - jupyter
+      - ipykernel
+      - pandas
